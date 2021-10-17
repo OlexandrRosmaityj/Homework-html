@@ -1,0 +1,34 @@
+.title{
+    color:gold;
+    background: blue;
+    border:solid  red 5px;
+    width: 500px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+.image{
+    width: 200px;
+    border: solid 15px gold;
+    border-radius: 10%;
+}
+.target {
+    background: silver;
+    color: #9a1946;
+    width: 250px;
+    height: 180px;
+    padding: 10px;
+    border-radius:20px;
+    box-sizing: border-box;
+}
+.centr{
+    margin: auto;}
+.list{
+    background: indianred;
+    width: 200px;
+    height: 120px;
+    padding: 20px;
+    border-left: #67910f solid 15px;
+    border-radius: 25px;
+}
