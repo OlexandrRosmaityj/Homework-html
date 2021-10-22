@@ -1,0 +1,78 @@
+body, html{
+    margin: 0;
+}
+.wrap{
+    height: 400px;
+    width: 700px;
+    background: #ffffff;
+    margin: 15px;
+    }
+
+.header{
+    height: 100px;
+    width: 700px;
+    background: #848d8d;
+    font-size: 30px;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border:rgb(77, 19, 19) 5px solid ;
+
+}
+.nav{
+    height: 100px;
+    width: 700px;
+    background: #848d8d;
+    font-size: 30px;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: rgb(77, 19, 19) 5px solid ;
+  }
+.text{
+    display: flex;
+    border: rgb(255, 255, 255) 5px solid ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+       column-gap: 2px;
+    border: rgb(77, 19, 19) 5px solid;
+  }
+.main{
+    height: 300px;
+    width: 70%;
+    background: #848d8d;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 10px;
+
+  }
+.aside{
+    height: 300px;
+    width:30%;
+    background: #848d8d;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+.footer{
+    height: 100px;
+    width: 700px;
+    background: #848d8d;
+    font-size: 30px;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: rgb(77, 19, 19) 5px solid;
+}

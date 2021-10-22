@@ -1,0 +1,53 @@
+ body {
+     margin: 0;
+ }
+
+ .wrap{
+     height:400px;
+     width: 600px;
+     margin: 15px;
+     background: #ffffff;
+     display: flex;
+     flex-direction: column;
+     row-gap: 5px;
+     border: black solid 2px;
+     border-radius: 10px;
+     padding: 3px;
+ }
+ .text{
+     height:100px;
+     width: 600px;
+     background: #848d8d;
+ }
+ .target{
+     height:300px;
+     width: 600px;
+     background: #ffffff;
+     display: flex;
+     flex-direction: row;
+     column-gap: 5px;
+     row-gap: 5px;
+ }
+ .img{
+     height:300px;
+     width: 150px;
+     background: #848d8d;
+
+
+ }
+ .info{
+     height:300px;
+     width: 450px;
+     background: #ffffff;
+     display: flex;
+     column-gap: 5px ;
+     row-gap: 5px;
+     flex-wrap: wrap;
+     align-content:center;
+     padding-left: 10px;
+   }
+ .item{
+     height: 140px ;
+     width: 140px;
+     background: #848d8d;
+ }
