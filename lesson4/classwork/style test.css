@@ -1,0 +1,340 @@
+body, html {
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #CED8DF;
+    margin: 5px;
+}
+
+.wrap {
+}
+
+.header {
+    height: 80px;
+    justify-content: right;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_menu {
+    width: 350px;
+    margin-right: 170px;
+}
+
+
+.menu {
+    height: 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_pic {
+    width: 230px;
+    margin-left: 200px;
+}
+
+.menu_buttons {
+    margin-right: 180px;
+    width: 510px;
+}
+
+.main {
+    height: 570px;
+}
+
+.main_block {
+    height: 280px;
+    width: 570px;
+    text-align: center;
+}
+
+
+.block_1__border {
+    border: 5px solid #9abcc8;
+    border-radius: 70px;
+    margin: 5px 70px 40px 80px;
+    padding: 20px;
+}
+
+.block_1_item1 {
+}
+
+.block_1_item1_text {
+    width: 20%;
+}
+
+.block_1_item1_text div {
+    background-color: #102b3e;
+}
+
+.block_1_item1_blocks {
+    padding: 10px;
+}
+
+.block_1_item1_block1 {
+    height: 80%;
+    width: 80%;
+}
+
+.block_1_item1_block2 {
+    width: 60%;
+}
+
+.block_2__border {
+    height: 80%;
+    width: 80%;
+
+}
+
+.block_2__border > div:nth-child(2n) {
+    border: 2px solid gray;
+
+}
+
+.block2_item {
+    height: 100%;
+    margin: 0 30px;
+}
+
+.block2_item_img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.block2_item_text {
+    max-width: 50%
+}
+
+.gallery_title {
+    height: 200px;
+    margin-top: 40px;
+}
+
+.gallery_items {
+    flex-wrap: wrap;
+}
+
+.gallery_item {
+    height: 550px;
+    width: 450px;
+
+    border: 5px solid #9abcc8;
+    border-radius: 40px;
+}
+
+.gallery_item_img {
+    height: 30%;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.gallery_item_text {
+    margin: 30px;
+    line-height: 50px;
+}
+
+.gallery_item_buttons {
+    height: 60px;
+    width: 100%;
+    border-top: 2px solid #9abcc8;
+
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button{
+    max-width: 180px;
+    height: 35px;
+    background-color: #1d1d49;
+    color: #9eb9ff;
+
+    margin: 0 20px;
+    padding: 2px;
+}
+
+.button:hover{
+    background-color: #612691;
+    transition: 0.3s;
+}
+
+.button2{
+    height: 70px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.xxx{
+    width: 130px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.x{
+    height: 30px;
+    width: 30px;
+}
+
+.last_block{
+    height: 1000px;
+}
+
+.last_block_items{
+    height: 600px;
+    width: 90%;
+}
+
+.last_block_item{
+    max-height: 100%;
+    width: 50%;
+    padding: 100px 50px;
+    justify-content: space-between
+}
+
+.footer{
+    height: 250px;
+}
+
+.cubes{
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.cube{
+    height: 60px;
+    width: 60px;
+    margin: 0 20px;
+}
+
+
+/* ======= size  ======= */
+.h10 {
+    height: 10px;
+}
+
+.h20 {
+    height: 20px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h-450 {
+    height: 450px;
+}
+
+.width33 {
+    width: 33%;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.flex_grow_1 {
+    flex-grow: 1;
+}
+
+.flex_grow_2 {
+    flex-grow: 2;
+}
+
+.flex_grow_3 {
+    flex-grow: 3;
+}
+
+.row_gap_5 {
+    row-gap: 5px;
+}
+
+.row_gap_25 {
+    row-gap: 25px;
+}
+
+.row_gap_50 {
+    row-gap: 50px;
+}
+
+.col_gap_5 {
+    column-gap: 5px;
+}
+
+.col_gap_50 {
+    column-gap: 50px;
+}
+
+
+.text_center {
+    text-align: center;
+}
+
+
+/* ======= flex  ======= */
+
+.d_flex {
+    display: flex;
+}
+
+.flex_center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+
+
+/* ======= bg_colors  ======= */
+
+.bgc_grey {
+    background-color: #CED8DF;
+}
+
+.bgc_blue {
+    background-color: #102b3e;
+}
+
+.bgc_cyan {
+    background-color: #3ac6ea;
+}
+
+/* ======= colors  ======= */
+
+.grey {
+    color: #CED8DF;
+}
+
+.blue {
+    color: #102b3e;
+}
+
+.cyan{
+    color: #3ac6ea;
+}
+
+/* ======= borders  ======= */
+
+.border_rad10px {
+    border-radius: 10px;
+}
+
+.border_rad20px {
+    border-radius: 20px;
+}
+
+.border_red {
+    border: 1px solid red;
+}
+
+.border_blue {
+    border: 1px solid blue;
+}
