@@ -1,0 +1,240 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 20px;
+}
+.header{
+    height: 100vh;
+    background:url("image/hero image.png") no-repeat center/cover;
+}
+
+.nav__item img{
+    width: 20px;
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 56px;
+}
+.logo img{
+    padding-left: 145px;
+}
+.nav{
+    display: flex;
+    column-gap:23px;
+    padding-right: 20px;
+
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.nav__item a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.telefone__contact{
+    color: #FFFFFF;
+    font-size: 19px;
+    line-height: 25px;
+    width: 156px;
+    border-left:  white 2px solid;
+    padding-left: 20px;
+}
+
+.contact{
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+
+.header__baton{
+    padding: 0 19px ;
+    height: 47px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    background: #FF7400;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.header__main{
+    color: #D67E35;
+    margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content:start;
+    padding-left: 145px;
+}
+
+.teitle1{
+    font-size: 50px;
+
+}
+.teitle2{
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.teitle3{
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+
+}
+.veiv{
+    color: #FFFFFF;
+    background: #FF7400;
+    margin-top: 21px;
+    width: 137px;
+    height: 47px;
+    /*margin-bottom:  231px;*/
+}
+
+.teitle3::before,
+.teitle3::after{
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background: #ccc8c8;
+
+}
+.teitle3::after{
+    margin-left: 16px;
+}
+.teitle3::before{
+    margin-right: 16px;
+}
+
+
+
+
+.conteiner__preais{
+    display: flex;
+    justify-content: center;
+
+
+    height:500px;
+}
+.tex1 span {
+    color:#BC9060
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    position: relative;
+    bottom: 80px;
+
+}
+.img1{
+    padding-top: 35px;
+}
+.tex1 {
+    width:90%;
+}
+.tex2{
+    width:90%;
+}
+
+.d__flex{
+    display: flex;
+    width: 25%;
+    height: 65%;
+    flex-direction: column;
+    border: silver 2px solid;
+    box-shadow: #848d8d -9px 25px 60px;
+    text-align: center;
+    align-items: center;
+    row-gap: 20px;
+    padding-bottom: 30px;
+    background: #FFFFFF;
+}
+
+.text__decor1{
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
+}
+.text__decor2{
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;}
+
+
+.nav__btn_mobile{
+    display: none;
+    width:60px;
+    flex-direction: column;
+    row-gap: 4px;
+
+}
+.nav__btn_mobile div{
+    height:3px;
+    width: 30px;
+    background:#FF7400;
+    border-radius: 50px;
+}
+.veiv__1{
+    display: none;
+}
