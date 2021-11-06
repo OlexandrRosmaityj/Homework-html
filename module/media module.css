@@ -1,0 +1,27 @@
+@media screen and (max-width: 320px){
+.navbar_right{
+display: none}
+
+.navbar-nav ul{
+    display: none;
+}
+.d_none  {
+    display:none;
+}
+
+.navbar-toggler{
+    display: block;
+}
+.d__block{
+    display: flex!important;
+}
+.navbar_padding{
+    padding: 8px 16px;
+}
+.nav_text{
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+}
