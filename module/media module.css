@@ -1,27 +1,90 @@
-@media screen and (max-width: 320px){
-.navbar_right{
-display: none}
+@media screen and (max-width: 320px) {
 
-.navbar-nav ul{
-    display: none;
+    html {
+
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .d_none {
+        display: none !important;
+    }
+
+    .d__flex {
+        display: flex;
+    }
+
+
+    .nav_text {
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+
+    /**/
+   /* */
+
+
+
+
+   .info___0,.info__0{
+       font-size: 14px;
+       line-height: 14px;
+
+   }
+    .info_3{
+        order: 2!important;
+        font-size:8px;
+        line-height:10px;
+        margin-left: 160px;
+    }
+    .info_4{
+        order: 1!important;
+        font-size: 10px;
+        line-height: 10px;
+
+        }
+
+.info__4{
+    font-size:16px;
 }
-.d_none  {
-    display:none;
+/**/
+/**/
+
+    .footer{
+        width: 34px;
+        height: 34px;
+    }
+    .form-control{
+        width: 203px;
+        height: 33px;
+    }
+
+
+
+
+    .container-fluid{
+        padding:0;
+    }
+.col-6{
+    padding: 0;
 }
 
-.navbar-toggler{
-    display: block;
-}
-.d__block{
-    display: flex!important;
-}
-.navbar_padding{
-    padding: 8px 16px;
-}
-.nav_text{
-    font-size: 12px;
-    line-height: 14px;
-    color: #FFFFFF;
-}
+
+
 
 }
+
+
+
+
+
+
+
